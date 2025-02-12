@@ -1,6 +1,6 @@
 'use client'
-import { useState } from 'react';
-import Link from 'next/link';
+// import { useState } from 'react';
+// import Link from 'next/link';
 import Image from 'next/image'
 import nike from '../public/nike.svg';
 import plus from '../public/plus.svg';
@@ -10,23 +10,19 @@ import down from '../public/ri-arrow-down-s-line.svg';
 
 
 const Header = () => {
-  const [show, setShow] = useState(false)
-  const [drawer, setDrawer] = useState(false)
+  // const [show, setShow] = useState(false)
+  // const [drawer, setDrawer] = useState(false)
 
-  const [input, setInput] = useState({
-    username: "",
-  })
-
-
-
-
+  // const [input, setInput] = useState({
+  //   username: "",
+  // })
 
 
 
 
   return (
     <div id="header">
-      <div className='hand_bugger flex items-center'  >
+      <div className='hand_bugger flex items-center'>
         <button className='nike_btn'>
           <div className='flex items-center gap-2'>
             <Image src={nike} alt='nike' />
