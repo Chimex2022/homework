@@ -61,18 +61,18 @@ const Awareness = () => {
      <div className='flex flex-col'>
 
       <div className='flex items-center gap-4 p-6'>
-      <div className='bg-white px-6 py-2 rounded-md text-gray-600'>
+      <div className='bg-white px-6 py-2 rounded-md  text-black font-bold'>
         <span>Awareness</span>
         <option></option>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md text-gray-600'>
+      <div className='bg-white px-6 py-2 rounded-md  text-black font-bold'>
         <span>Video views</span>
         <option></option>
 
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md text-gray-600'>
+      <div className='bg-white px-6 py-2 rounded-md  text-black font-bold'>
         <span>Video views</span>
         <option></option>
       </div>
