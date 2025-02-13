@@ -1,13 +1,11 @@
-import { Trash, Volume1 } from 'lucide-react'
+import { Trash } from 'lucide-react'
 import React from 'react'
 import Button from '../../components/common/button'
 import Image from 'next/image'
 import Quantum from '../../public/quantum.png'
 import Trade from '../../public/trade.png'
 import Instagram from '../../public/instagram.png'
-import Youtube from '../../public/youtube.png'
 import Facebook from '../../public/facebook.png'
-import Vector from '../../public/Vector.png'
 import Card from '../../public/mdi_credit-card.png'
 import Google from '../../public/google.png'
 
@@ -200,7 +198,7 @@ const Conversion = () => {
       <div className=''>
        <Button
        text='Google'
-       image={Google}
+       image={Google.src}
        variant='tertiary'
        onClick={() => alert("Button clicked")}
        
