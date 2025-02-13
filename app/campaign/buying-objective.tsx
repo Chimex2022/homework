@@ -4,6 +4,9 @@ import React from 'react'
 import Button from '../../components/common/button';
 import { Plus } from 'lucide-react';
 import Awareness from './awareness';
+import Consideration from './consideration';
+import Conversion from './conversion';
+import FooterButton from './footer-button';
 
 interface BuyingObjectiveCardProps {
   title: string;
@@ -45,8 +48,20 @@ const BuyingObjective = () => {
        </div>
         </div>
        
-        <div className='flex justify-between items-center pl-10' >
-           <Awareness />
+        <div className='' >
+        <Awareness />
+        </div>
+
+        <div>
+        <Consideration />
+        </div>
+
+        <div>
+        <Conversion />
+        </div>
+
+        <div>
+        <FooterButton />
         </div>
 
     </>
