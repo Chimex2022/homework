@@ -1,19 +1,26 @@
 import React from 'react'
 import Image from 'next/image'
 import Map from "../../public/map.png"
-import { Copy, CreditCard, Speaker, CalendarDays, Check } from 'lucide-react'
+import { Copy, CreditCard, CalendarDays, Check } from 'lucide-react'
 import Cart from "../../public/cart.png"
 import Arrow from "../../public/arrow.png"
+import Material from "../../public/material-symbols_campaign-rounded.png"
 import Goal from "../../public/goal.png"
 
 const ImageDivider = () => {
   return (
     <div className="flex flex-col items-center gap-2">
         
+        <div className="flex gap-4 items-center">
+
       <div className='relative flex items-center justify-center size-8 rounded-full font-bold bg-[#0ABF7E]'>
-      <Speaker className="size-3 text-white" />
+      <Image src={Material} alt="material" className="size-3 text-white" />
       </div>
       
+      
+        </div>
+
+
       {/* Vertical Line */}
       <div className="w-[0.5] h-12 bg-[#0ABF7E]"></div>
 

@@ -24,7 +24,7 @@ const BuyingObjectiveCard = ({ title }: BuyingObjectiveCardProps) => {
 const BuyingObjective = () => {
   return (
     <>
-  <div className='bg-white p-6 my-6 rounded-md w-full mx-auto'>
+  <div className='bg-white p-6 my-6 rounded-md w-full mx-6'>
 
       <div className='flex justify-between items-center px-6 my-4'>
         <BuyingObjectiveCard title='Your buying objectives and types' />
