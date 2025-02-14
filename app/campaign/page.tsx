@@ -7,6 +7,7 @@ import Sidebar from './sidebar'
 const CampaignPage = () => {
   return (
     <div className='flex flex-1 min-h-screen bg-gray-100'>
+     
       <Sidebar />
 
       <div className='flex flex-col content-start w-full'>
