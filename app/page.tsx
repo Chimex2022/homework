@@ -1,4 +1,4 @@
-import CampaignPage from "./campaign/page";
+import CampaignPage from "./campaign-edit/page";
 
 
 

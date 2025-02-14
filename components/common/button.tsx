@@ -1,4 +1,5 @@
-"use client"; // Ensure it's a client component in Next.js 15
+'"use client"'
+
 
 import React from "react";
 import Image from "next/image";
