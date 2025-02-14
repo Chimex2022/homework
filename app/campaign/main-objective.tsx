@@ -1,5 +1,7 @@
-import { ShoppingCart } from 'lucide-react';
 import React from 'react';
+import Cart from "../../public/cart.png"
+import Image from 'next/image'
+
 
 interface ObjectiveCardProps {
   title: string;
@@ -20,7 +22,7 @@ const ObjectiveCard: React.FC<ObjectiveCardProps> = ({ title, selectedObjective,
       <div className="space-y-4 bg-gray-100 p-4 shadow-sm rounded-md">
         <p className='text-sm font-semibold'>{description}</p>
         <div className="flex items-center gap-2">
-        <ShoppingCart className="text-lg size-6 p-1 font-bold text-white bg-blue-600 rounded-full" />
+        <span><Image className="rounded-full size-6 bg-blue-600 p-1" src={Cart} alt="cart" /></span>
           <span className="text-lg text-black">
 
             {selectedObjective}

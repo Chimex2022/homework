@@ -24,7 +24,7 @@ const BuyingObjectiveCard = ({ title }: BuyingObjectiveCardProps) => {
 const BuyingObjective = () => {
   return (
     <>
-  <div className='bg-white p-6 my-6'>
+  <div className='bg-white p-6 my-6 rounded-md w-4/5'>
 
       <div className='flex justify-between items-center px-6 my-4'>
         <BuyingObjectiveCard title='Your buying objectives and types' />
@@ -46,17 +46,18 @@ const BuyingObjective = () => {
           onClick={() => alert('Add new stage clicked')}
           />
        </div>
-        </div>
+
+
        
-        <div className='' >
+        <div className='pt-8 bg-gray-100 mt-8' >
         <Awareness />
         </div>
 
-        <div>
+        <div className='pt-8 bg-gray-100 mt-8'>
         <Consideration />
         </div>
 
-        <div>
+        <div className='pt-8 bg-gray-100 mt-8'>
         <Conversion />
         </div>
 
@@ -64,6 +65,7 @@ const BuyingObjective = () => {
         <FooterButton />
         </div>
 
+        </div>
     </>
   )
 }

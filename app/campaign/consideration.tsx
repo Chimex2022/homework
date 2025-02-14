@@ -1,7 +1,7 @@
 import { Trash } from 'lucide-react'
+import Image from 'next/image'
 import React from 'react'
 import Button from '../../components/common/button'
-import Image from 'next/image'
 import Quantum from '../../public/quantum.png'
 import Trade from '../../public/trade.png'
 import Instagram from '../../public/instagram.png'
@@ -16,7 +16,7 @@ const Consideration = () => {
     <div className='flex text-white justify-between w-full px-6'>
       <div className='flex items-center gap-2 pl-6'>
         <span><Image src={Vector} alt="card" /></span>
-        <h2 className='text-black font-semibold'>Conversion</h2>
+        <h2 className='text-black font-semibold'>Consideration</h2>
       </div>
 
       <div>
@@ -109,7 +109,7 @@ const Consideration = () => {
       
 
 
-    <div className='flex items-center space-x-48'>
+    <div className='flex items-center space-x-4 justify-center'>
         <div className=''>
 
     <h2 className='p-4 font-bold'>Display networks</h2>
