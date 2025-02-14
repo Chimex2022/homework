@@ -15,7 +15,7 @@ const Conversion = () => {
 
     <div className='flex text-white justify-between w-full px-6'>
       <div className='flex items-center gap-2 pl-6'>
-        <span><Image src={Card} alt="card" /></span>
+        <span><Image className='flex-shrink-0' src={Card} alt="card" /></span>
         <h2 className='text-black font-semibold'>Conversion</h2>
       </div>
 
@@ -38,12 +38,12 @@ const Conversion = () => {
     <div className='flex items-center gap-4 p-6'>
 
       <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
-        <span><Image src={Facebook} alt="facebook" /></span>
+        <span><Image className='flex-shrink-0' src={Facebook} alt="facebook" /></span>
         <h2>Facebook</h2>
       </div>
 
       <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
-        <span><Image src={Instagram} alt="instagram" /></span>
+        <span><Image className='flex-shrink-0' src={Instagram} alt="instagram" /></span>
         <h2>Instagram</h2>
       </div>
 
@@ -109,131 +109,134 @@ const Conversion = () => {
       
 
 
-    <div className='flex items-center space-x-48'>
-        <div className=''>
+  <div className='grid grid-cols-1 gap-8 md:flex justify-center space-x-10 px-8 py-6'>
 
-    <h2 className='p-4 font-bold'>Display networks</h2>
-    
-    <div className='flex items-center gap-4 p-6'>
+<div className=''>
+<h2 className='text-black font-bold pl-4 py-4'>Display networks</h2>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
-        <span><Image className='' src={Trade} alt='quantum' /></span>
-        <h2>The TradeDest</h2>
-      </div>
+<div className='flex items-center gap-4'>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
-        <span><Image src={Quantum} alt='trade' /></span>
-        <h2>QuantCast</h2>
-      </div>
+<div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+<span><Image className='flex-shrink-0' src={Trade} alt='quantum' /></span>
+<h2>The TradeDest</h2>
+</div>
 
-
-      <div className=''>
-       <Button
-       text='Add channel'
-       variant='primary'
-       onClick={() => alert("Button clicked")}
-       
-       />
-      </div>
-    </div>
-
-       {/* another shift */}
+<div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+<span><Image className='flex-shrink-0' src={Quantum} alt='trade' /></span>
+<h2>QuantCast</h2>
+</div>
 
 
-     <div className='flex flex-col'>
+<div className=''>
+<Button
+text='Add channel'
+variant='primary'
+onClick={() => alert("Button clicked")}
 
-      <div className='flex items-center gap-4 p-6'>
-        
+/>
+</div>
+</div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
-        <span>Video views</span>
-        <select>
-        <option></option>
-        </select>
-      </div>
-
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
-        <span>Traffic</span>
-        <select>
-          <option></option>
-        </select>
-      </div>
-
-      </div>
-
-      <div className='flex items-center gap-4 p-6'>
-
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
-        <span>CPV</span>
-        <select>
-        <option></option>
-        </select>
-      </div>
-
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
-        <span>CPV</span>
-        <select>
-        <option></option>
-        </select>
-      </div>
-
-      </div>
-
-     </div>
-
-     </div>
-
-    
-  {/* end */}
+{/* another shift */}
 
 
-    {/* second stage */}
-   
-   <div className='flex flex-col gap-6'>
-  <h2 className='font-bold'>Search Engines</h2>
+<div className='flex item-start gap-6 flex-col'>
 
-    <div className='flex gap-4 items-center'>
+<div className='flex items-center pt-4 gap-4'>
+
+<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<span>Video views</span>
+<select>
+<option></option>
+</select>
+</div>
+
+<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<span>Traffic</span>
+<select>
+  <option></option>
+</select>
+</div>
+
+</div>
+
+<div className='flex items-center gap-4'>
+
+<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<span>CPV</span>
+<select>
+<option></option>
+</select>
+</div>
+
+<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<span>CPV</span>
+<select>
+<option></option>
+</select>
+</div>
+
+</div>
+
+</div>
+
+</div>
 
 
-      <div className=''>
-       <Button
-       text='Google'
-       image={Google.src}
-       variant='tertiary'
-       onClick={() => alert("Button clicked")}
-       
-       />
-      </div>
-
-      <div className=''>
-       <Button
-       text='Add Channel'
-       variant='primary'
-       onClick={() => alert("Button clicked")}
-       
-       />
-      </div>
-    </div>
+{/* end */}
 
 
-    <div className='flex flex-col'>
-    <div className='bg-white px-4 py-2 mb-4 mt-4 rounded-md flex items-center gap-2 text-black font-bold'>
-        <span>Traffic</span>
-        <select>
-        <option></option>
-        </select>
-      </div>
+{/* second stage */}
 
-      <div className='bg-white px-4 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
-        <span>CPM</span>
-        <select>
-        <option></option>
-        </select>
-      </div>
-    </div>
-   </div>
+<div className='flex flex-col'>
+<h2 className='font-bold py-4'>Search Engines</h2>
 
-   </div>
+<div className='flex gap-4 items-center'>
+
+<div className=''>
+<Button
+text='Google'
+image={Google.src}
+variant='tertiary'
+className='text-black'
+onClick={() => alert("Button clicked")}
+
+/>
+</div>
+
+<div className=''>
+<Button
+text='Add Channel'
+variant='primary'
+onClick={() => alert("Button clicked")}
+
+/>
+</div>
+
+</div>
+
+
+<div className='flex flex-col'>
+<div className='bg-white px-4 py-2 mb-4 mt-4 rounded-md flex items-center gap-2 text-black font-bold'>
+<span>Traffic</span>
+<select>
+<option></option>
+</select>
+</div>
+
+<div className='bg-white px-4 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<span>CPM</span>
+<select>
+<option></option>
+</select>
+</div>
+
+</div>
+
+</div>
+
+
+</div>
 
 
     </div>

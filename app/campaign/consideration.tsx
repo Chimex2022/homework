@@ -33,7 +33,7 @@ const Consideration = () => {
     </div>
     
     {/* start */}
-   <div className='"'>
+   <div className=''>
     <h2 className='flex items-start p-4 font-bold'>Social media</h2>
     <div className='flex items-center gap-4 p-6'>
 
@@ -109,12 +109,12 @@ const Consideration = () => {
       
 
 
-    <div className='flex items-center space-x-4 justify-center'>
-        <div className=''>
+    <div className='grid grid-cols-1 gap-8 md:flex justify-center space-x-10 px-8 py-6'>
 
-    <h2 className='p-4 font-bold'>Display networks</h2>
+        <div className=''>
+    <h2 className='text-black font-bold pl-4 py-4'>Display networks</h2>
     
-    <div className='flex items-center gap-4 p-6'>
+    <div className='flex items-center gap-4'>
 
       <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image className='' src={Trade} alt='quantum' /></span>
@@ -140,11 +140,10 @@ const Consideration = () => {
        {/* another shift */}
 
 
-     <div className='flex flex-col'>
+     <div className='flex item-start gap-6 flex-col'>
 
-      <div className='flex items-center gap-4 p-6'>
+      <div className='flex items-center pt-4 gap-4'>
         
-
       <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Video views</span>
         <select>
@@ -161,7 +160,7 @@ const Consideration = () => {
 
       </div>
 
-      <div className='flex items-center gap-4 p-6'>
+      <div className='flex items-center gap-4'>
 
       <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPV</span>
@@ -189,17 +188,17 @@ const Consideration = () => {
 
     {/* second stage */}
    
-   <div className='flex flex-col gap-6'>
-  <h2 className='font-bold'>Search Engines</h2>
+   <div className='flex flex-col'>
+  <h2 className='font-bold py-4'>Search Engines</h2>
 
     <div className='flex gap-4 items-center'>
-
 
       <div className=''>
        <Button
        text='Google'
        image={Google.src}
        variant='tertiary'
+       className='text-black'
        onClick={() => alert("Button clicked")}
        
        />
@@ -213,6 +212,7 @@ const Consideration = () => {
        
        />
       </div>
+
     </div>
 
 
@@ -230,8 +230,11 @@ const Consideration = () => {
         <option></option>
         </select>
       </div>
+      
     </div>
+    
    </div>
+
 
    </div>
 

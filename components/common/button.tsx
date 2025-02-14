@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({
     secondary:
       "bg-black font-bold hover:bg-gray-700 border border-black hover:text-white transition ease-out duration-200",
     tertiary: 
-      "bg-white font-bold text-black hover:bg-gray-700 border border-black hover:text-white transition ease-out duration-200",
+      "bg-white font-bold !text-black hover:bg-gray-700 border border-black hover:text-white transition ease-out duration-200",
     danger:
       "bg-[#FF5955] text-white leading-wider border border-[#A7A7A7] font-bold hover:bg-orange-700 hover:text-white transition ease-out duration-200",
   };

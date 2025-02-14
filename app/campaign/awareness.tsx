@@ -34,7 +34,7 @@ const Awareness = () => {
     {/* start */}
    <div className='"'>
     <h2 className='flex items-start p-4 font-bold'>Social media</h2>
-    <div className='flex items-center gap-4 p-6'>
+    <div className='grid grid-cols-2 !gap-6 md:flex items-center p-6'>
 
       <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Facebook} alt="facebook" /></span>
@@ -51,7 +51,7 @@ const Awareness = () => {
         <h2>Youtube</h2>
       </div>
 
-      <div className=''>
+      <div className='flex flex-wrap flex-shrink-0'>
        <Button
        text='Add channel'
        variant='primary'

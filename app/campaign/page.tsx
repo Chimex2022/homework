@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './navbar'
 import MainObjective from './main-objective'
 import BuyingObjective from './buying-objective'
-import { Sidebar } from './sidebar';
+import Sidebar from './sidebar'
 
 const CampaignPage = () => {
   return (
