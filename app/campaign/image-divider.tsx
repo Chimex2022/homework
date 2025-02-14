@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Map from "../../public/map.png"
 import { Copy, CreditCard, Speaker, CalendarDays, Check } from 'lucide-react'
 import Cart from "../../public/cart.png"
-import Vector from "../../public/Vector.png"
+import Arrow from "../../public/arrow.png"
 import Goal from "../../public/goal.png"
 
 const ImageDivider = () => {
@@ -46,14 +46,14 @@ const ImageDivider = () => {
       <div className="w-[0.5] h-12 bg-[#0ABF7E]"></div>
 
    
-      <div className="relative flex items-center justify-center size-8 rounded-full font-bold bg-gray-100">
+      <div className="relative flex items-center justify-center size-8 rounded-full font-bold bg-gray-300">
       <CalendarDays className='text-white size-3' />
       </div>
 
       <div className="w-[0.5] h-12 bg-gray-100"></div>
 
       <div className='relative flex items-center justify-center size-8 rounded-full font-bold bg-[#0ABF7E]'>
-      <Image src={Vector} alt="vector" className="size-3 text-white" />
+      <Image src={Arrow} alt="vector" className="size-3 text-white" />
       </div>
       
       {/* Vertical Line */}
