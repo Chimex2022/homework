@@ -40,12 +40,12 @@ const Conversion = () => {
     <h2 className='flex items-start p-4 font-bold'>Social media</h2>
     <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image className='flex-shrink-0' src={Facebook} alt="facebook" /></span>
         <h2>Facebook</h2>
       </div>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image className='flex-shrink-0' src={Instagram} alt="instagram" /></span>
         <h2>Instagram</h2>
       </div>
@@ -69,14 +69,14 @@ const Conversion = () => {
 
       <div className='flex items-center gap-4 p-6'>
         
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Traffic</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Traffic</span>
         <select>
         <option></option>
@@ -88,14 +88,14 @@ const Conversion = () => {
 
       <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPM</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPM</span>
         <select>
         <option></option>
@@ -119,12 +119,12 @@ const Conversion = () => {
 
 <div className='flex items-center gap-4'>
 
-<div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+<div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
 <span><Image className='flex-shrink-0' src={Trade} alt='quantum' /></span>
 <h2>The TradeDest</h2>
 </div>
 
-<div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+<div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
 <span><Image className='flex-shrink-0' src={Quantum} alt='trade' /></span>
 <h2>QuantCast</h2>
 </div>
@@ -147,14 +147,14 @@ onClick={() => alert("Button clicked")}
 
 <div className='flex items-center pt-4 gap-4'>
 
-<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
 <span>Video views</span>
 <select>
 <option></option>
 </select>
 </div>
 
-<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
 <span>Traffic</span>
 <select>
   <option></option>
@@ -165,14 +165,14 @@ onClick={() => alert("Button clicked")}
 
 <div className='flex items-center gap-4'>
 
-<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
 <span>CPV</span>
 <select>
 <option></option>
 </select>
 </div>
 
-<div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
 <span>CPV</span>
 <select>
 <option></option>
@@ -220,14 +220,14 @@ onClick={() => alert("Button clicked")}
 
 
 <div className='flex flex-col'>
-<div className='bg-white px-4 py-2 mb-4 mt-4 rounded-md flex items-center gap-2 text-black font-bold'>
+<div className='bg-white border w-[200px] border-gray-100 px-4 py-2 mb-4 mt-4 rounded-md flex items-center gap-2 text-black font-bold'>
 <span>Traffic</span>
 <select>
 <option></option>
 </select>
 </div>
 
-<div className='bg-white px-4 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+<div className='bg-white border w-[200px] border-gray-100 px-4 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
 <span>CPM</span>
 <select>
 <option></option>

@@ -1,4 +1,4 @@
-import { Trash, Volume1 } from 'lucide-react'
+import { Trash } from 'lucide-react'
 import React from 'react'
 import Button from '../../components/common/button'
 import Image from 'next/image'
@@ -7,6 +7,7 @@ import Trade from '../../public/trade.png'
 import Instagram from '../../public/instagram.png'
 import Youtube from '../../public/youtube.png'
 import Facebook from '../../public/facebook.png'
+import Megaphone from "../../public/mdi_megaphone.png"
 
 const Awareness = () => {
   return (
@@ -14,7 +15,7 @@ const Awareness = () => {
 
     <div className='flex text-white justify-between w-full px-6'>
       <div className='flex items-center gap-2 pl-6'>
-        <span><Volume1 className='text-[#3175FF] font-bold' /></span>
+        <span><Image src={Megaphone} alt="megaphone" className='flex-shrink-0 text-[#3175FF] font-bold' /></span>
         <h2 className='text-black font-semibold'>Awareness</h2>
       </div>
 
@@ -36,17 +37,17 @@ const Awareness = () => {
     <h2 className='flex items-start p-4 font-bold'>Social media</h2>
     <div className='grid grid-cols-2 !gap-6 md:flex items-center p-6'>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Facebook} alt="facebook" /></span>
         <h2>Facebook</h2>
       </div>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Instagram} alt="instagram" /></span>
         <h2>Instagram</h2>
       </div>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Youtube} alt="youtube" /></span>
         <h2>Youtube</h2>
       </div>
@@ -68,21 +69,21 @@ const Awareness = () => {
 
       <div className='flex items-center gap-4 p-6'>
         
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Awareness</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Video views</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Video views</span>
         <select>
           <option></option>
@@ -93,14 +94,14 @@ const Awareness = () => {
 
       <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPV</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPV</span>
         <select>
         <option></option>
@@ -120,12 +121,12 @@ const Awareness = () => {
     <h2 className='flex items-start p-4 font-bold'>Display networks</h2>
     <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image className='' src={Trade} alt='quantum' /></span>
         <h2>The TradeCast</h2>
       </div>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Quantum} alt='trade' /></span>
         <h2>QuantumCast</h2>
       </div>
@@ -149,14 +150,14 @@ const Awareness = () => {
       <div className='flex items-center gap-4 p-6'>
         
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Video views</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Video views</span>
         <select>
           <option></option>
@@ -167,14 +168,14 @@ const Awareness = () => {
 
       <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPV</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPV</span>
         <select>
         <option></option>

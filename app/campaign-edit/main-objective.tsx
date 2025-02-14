@@ -11,7 +11,7 @@ interface ObjectiveCardProps {
 
 const ObjectiveCard: React.FC<ObjectiveCardProps> = ({ title, selectedObjective, description }) => {
   return (
-    <div className="p-6 bg-white max-w-sm ml-8 text-lg rounded-lg shadow-sm border border-gray-200">
+    <div className="p-6 bg-white justify-start max-w-sm ml-8 text-lg rounded-lg shadow-sm border border-gray-200">
         <div className='flex items-center gap-2 my-4'>
           <span className='text-sm flex justify-center items-center rounded-full bg-blue-600 text-white p-1 size-6'>1</span>
         <h1 className="text-sm font-medium tracking-wide">

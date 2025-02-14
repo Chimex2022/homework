@@ -36,15 +36,15 @@ const Consideration = () => {
     
     {/* start */}
    <div className=''>
-    <h2 className='flex items-start p-4 font-bold'>Social media</h2>
+    <h2 className='flex items-start p-2 font-bold'>Social media</h2>
     <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Facebook} alt="facebook" /></span>
         <h2>Facebook</h2>
       </div>
 
-      <div className='bg-white flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
+      <div className='bg-white border border-gray-100 flex items-center gap-2 px-6 py-2 rounded-md text-black font-bold'>
         <span><Image src={Instagram} alt="instagram" /></span>
         <h2>Instagram</h2>
       </div>
@@ -68,14 +68,14 @@ const Consideration = () => {
 
       <div className='flex items-center gap-4 p-6'>
         
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Traffic</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Traffic</span>
         <select>
         <option></option>
@@ -87,14 +87,14 @@ const Consideration = () => {
 
       <div className='flex items-center gap-4 p-6'>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPM</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white border border-gray-100 px-6 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPM</span>
         <select>
         <option></option>
@@ -114,7 +114,7 @@ const Consideration = () => {
     <div className='grid grid-cols-1 gap-8 md:flex justify-center space-x-10 px-8 py-6'>
 
         <div className=''>
-    <h2 className='text-black font-bold pl-4 py-4'>Display networks</h2>
+    <h2 className='text-black font-bold p-2'>Display networks</h2>
     
     <div className='flex items-center gap-4'>
 
@@ -219,14 +219,14 @@ const Consideration = () => {
 
 
     <div className='flex flex-col'>
-    <div className='bg-white px-4 py-2 mb-4 mt-4 rounded-md flex items-center gap-2 text-black font-bold'>
+    <div className='bg-white px-4 py-2 mb-4 mt-4 w-[200px] rounded-md flex items-center gap-2 text-black font-bold'>
         <span>Traffic</span>
         <select>
         <option></option>
         </select>
       </div>
 
-      <div className='bg-white px-4 py-2 rounded-md flex items-center gap-2 text-black font-bold'>
+      <div className='bg-white px-4 py-2 w-[200px] rounded-md flex items-center gap-2 text-black font-bold'>
         <span>CPM</span>
         <select>
         <option></option>

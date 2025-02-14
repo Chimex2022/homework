@@ -24,9 +24,9 @@ const BuyingObjectiveCard = ({ title }: BuyingObjectiveCardProps) => {
 const BuyingObjective = () => {
   return (
     <>
-  <div className='bg-white p-6 my-6 rounded-md w-full mx-6'>
+  <div className='bg-white flex items-start flex-col p-6 my-6 rounded-md mx-6'>
 
-      <div className='flex justify-between items-center px-6 my-4'>
+      <div className='flex justify-between items-center w-full px-6 my-4'>
         <BuyingObjectiveCard title='Your buying objectives and types' />
         <div>
           <Button
@@ -49,19 +49,19 @@ const BuyingObjective = () => {
 
 
        
-        <div className='pt-8 bg-gray-100 mt-8' >
+        <div className='pt-8 bg-gray-100 mt-8 w-full' >
         <Awareness />
         </div>
 
-        <div className='pt-8 bg-gray-100 mt-8'>
+        <div className='pt-8 bg-gray-100 mt-8 w-full'>
         <Consideration />
         </div>
 
-        <div className='pt-8 bg-gray-100 mt-8'>
+        <div className='pt-8 bg-gray-100 mt-8 w-full'>
         <Conversion />
         </div>
 
-        <div>
+        <div className='flex justify-between w-full'>
         <FooterButton />
         </div>
 
